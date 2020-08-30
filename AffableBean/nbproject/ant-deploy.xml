@@ -5,7 +5,7 @@
         <available file="${deploy.ant.docbase.dir}/WEB-INF/sun-web.xml" property="sun.web.present"/>
         <available file="${deploy.ant.docbase.dir}/WEB-INF/glassfish-web.xml" property="glassfish.web.present"/>
         <available file="${deploy.ant.resource.dir}" property="has.setup"/>
-        <tempfile prefix="gfv3" property="gfv3.password.file" destdir="${java.io.tmpdir}"/>  <!-- do not forget to delete this! -->
+        <tempfile prefix="gfv3" property="gfv3.password.file" destdir="${java.io.tmpdir}"/>  <!-- do not forget to delete this yes its importnat! -->
         <echo message="AS_ADMIN_PASSWORD=${gfv3.password}" file="${gfv3.password.file}"/>
     </target>
     
