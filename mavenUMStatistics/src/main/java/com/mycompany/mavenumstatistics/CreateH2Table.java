@@ -28,6 +28,8 @@ public class CreateH2Table {
 
         try {
             //STEP 2: Register JDBC driver
+            // Adding stuff from Sofia in 2020 for testing GibHub Desktop
+            
             Class.forName("org.h2.Driver");
 
             //STEP 3: Open a connection
